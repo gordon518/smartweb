@@ -1,0 +1,17 @@
+{
+  "name": "test_smartweb",
+  "version": "1.0.0",
+  "description": "smartweb is a web framework for nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smartweb"
+  ],
+  "author": "Gordon",
+  "license": "MIT",
+  "dependencies": {
+    "smartweb": "^2.0.3"
+  }
+}
