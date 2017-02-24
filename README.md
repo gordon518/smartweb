@@ -1,10 +1,10 @@
 Setup Guide:
 
-1. Assuming you¡¯ve already installed Node.js, create a directory to hold your application, and make that your working directory.
+1. Assuming youâ€™ve already installed Node.js, create a directory to hold your application, and make that your working directory.
 $ mkdir myapp
 $ cd myapp
 
-2. Use the npm init command to create a package.json file for your application. For more information on how package.json works, see Specifics of npm¡¯s package.json handling.
+2. Use the npm init command to create a package.json file for your application. For more information on how package.json works, see Specifics of npmâ€™s package.json handling.
 $ npm init
 This command prompts you for a number of things, such as the name and version of your application. For now, you can simply hit RETURN to accept the defaults for most of them, with the following exception:
 
