@@ -45,7 +45,7 @@ smart.start(8080);
 
 Developing Guide:
 
-1. Create the file of ejs.js in the folder of controller as following:
+1 Create the file of ejs.js in the folder of controller as following:
 
 ```
 var smart = require("smartweb");
@@ -61,7 +61,7 @@ module.exports = {
 };
 ```
 
-2. Create the file of list.ejs in the folder of view as following:
+2  Create the file of list.ejs in the folder of view as following:
 ```
 <% if (names.length) { %>
 	<ul>
@@ -72,13 +72,13 @@ module.exports = {
 <% } %>
 ```
 
-3. Test the code:
+3 Test the code:
 
    (1) Change the folder to myapp, and run the following command:
 ```
 $ node ./
 ```
 
-   	(2) Open a web browser, such as IE, chrome, firefox. Try the address of http://localhost:8080/ejs.do. The url will call the controller of ejs.js, and show the view of list.ejs.
+   (2) Open a web browser, such as IE, chrome, firefox. Try the address of http://localhost:8080/ejs.do. The url will call the controller of ejs.js, and show the view of list.ejs.
 
     In smartweb, the ".do" extention will call the controller, the others will load the files in the folder of web.
