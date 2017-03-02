@@ -61,24 +61,24 @@ Developing Guide for smartweb framework (One example):
    var smart = require("smartweb");
 
    module.exports = {
-   	get: function(req, res) {
-   		console.log("ejs:get() starting");
-   		var data={  
-   			names: ['foo', 'bar', 'baz']  
-   		};
-   		smart.showView(res, "list.ejs", data); //load list.ejs in the folder of view
-   	}
+		get: function(req, res) {
+			console.log("ejs:get() starting");
+			var data={  
+				names: ['foo', 'bar', 'baz']  
+			};
+			smart.showView(res, "list.ejs", data); //load list.ejs in the folder of view
+		}
    };
    ```
 
 2. Create the file of list.ejs in the folder of view as following:
    ```
    <% if (names.length) { %>
-   	<ul>
-   		<% names.forEach(function(name){ %>
-   			<li foo='<%= name + "'" %>'><%= name %></li>
-   		<% }) %>
-   	</ul>
+		<ul>
+			<% names.forEach(function(name){ %>
+				<li foo='<%= name + "'" %>'><%= name %></li>
+			<% }) %>
+		</ul>
    <% } %>
    ```
 
