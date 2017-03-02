@@ -1,6 +1,6 @@
 Smartweb is a web framework for nodejs. It's ultra slim and very powerful, and it saves programmers a lot of works for building web applications. With smartweb, programmers only need to do is to write controllers and views, the framework automatically let them work together. 
 
-This repository demonstrates smartweb framework. You can run the app by the command of "node ./". After running the command, the web server turns on, and th url of "http://localhost:8080/" can be accessed.
+This repository demonstrates smartweb framework. You can run the app by the command of "node ./". After running the command, the web server turns on, and the url of "http://localhost:8080/" can be accessed.
 
 Setup Guide for smartweb framework:
 
@@ -61,24 +61,24 @@ Developing Guide for smartweb framework (One example):
    var smart = require("smartweb");
 
    module.exports = {
-	get: function(req, res) {
-		console.log("ejs:get() starting");
-		var data={  
-			names: ['foo', 'bar', 'baz']  
-		};
-		smart.showView(res, "list.ejs", data); //load list.ejs in the folder of view
-	}
+   	get: function(req, res) {
+   		console.log("ejs:get() starting");
+   		var data={  
+   			names: ['foo', 'bar', 'baz']  
+   		};
+   		smart.showView(res, "list.ejs", data); //load list.ejs in the folder of view
+   	}
    };
    ```
 
 2. Create the file of list.ejs in the folder of view as following:
    ```
    <% if (names.length) { %>
-	<ul>
-		<% names.forEach(function(name){ %>
-			<li foo='<%= name + "'" %>'><%= name %></li>
-		<% }) %>
-	</ul>
+   	<ul>
+   		<% names.forEach(function(name){ %>
+   			<li foo='<%= name + "'" %>'><%= name %></li>
+   		<% }) %>
+   	</ul>
    <% } %>
    ```
 
