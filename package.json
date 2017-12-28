@@ -1,6 +1,6 @@
 {
   "name": "test_smartweb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "smartweb is a web framework for nodejs",
   "main": "app.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "author": "Gordon",
   "license": "MIT",
   "dependencies": {
-    "smartweb": "^2.0.3"
+    "smartweb": "^2.0.4"
   }
 }
