@@ -1,6 +1,11 @@
 Smartweb is a web framework for nodejs. It's ultra slim and very powerful, and it saves programmers a lot of works for building web applications. With smartweb, programmers only need to do is to write controllers and views, the framework automatically let them work together. 
 
-This repository demonstrates smartweb framework. You can run the app by the command of "node ./". After running the command, the web server turns on, and the url of "http://localhost:8080/" can be accessed.
+Run Guide for this project:
+1. Install node-v12.22.0
+2. Run the command of "npm install" to install node modules.
+3. Run the command of "node ./" to start nodejs app.
+4. Aceess the url of "http://localhost:8080/" to show the web page of this app.
+
 
 Setup Guide for smartweb framework:
 
